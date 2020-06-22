@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin JS</title>
+</head>
+<body>
+    <button>Click</button>
+    <script>
+        function add7(num){
+            console.log(num +7);
+        }
+
+        function multiply(num1,num2){
+            console.log(num1 * num2);
+        }
+        function capitalize(str){
+            // let str = str[0].toUppercase();
+            console.log(str[0].toUpperCase() + str.slice(1));
+        }
+        function lastLetter(str){
+            console.log(str.slice(-1));
+        }
+        add7(prompt('Enter a number'));
+        multiply(5,2);
+        capitalize('example');
+        lastLetter('example');
+    </script>
+</body>
+</html>
